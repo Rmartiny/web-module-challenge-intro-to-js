@@ -287,9 +287,20 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
+function grade(number){
+  if (grade >= 90) {
+    return 'you got an A';
+  }
+  else if (grade >=80 && grade <= 89) {
+    return 'you got a B';}
+  else if (grade >=70 && grade <=79) {
+    return 'you got a C';}
+  else if (grade >=60 && grade <=69) {
+     return 'you got a D';}
+  else{'You got an F'}
+
 }
+console.log (grade(85));
 
 
 

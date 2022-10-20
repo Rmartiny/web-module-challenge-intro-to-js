@@ -288,14 +288,14 @@ Using the grade function below do the following:
 */
 
 function grade(number){
-  if (grade >= 90) {
+  if (number >= 90) {
     return 'you got an A';
   }
-  else if (grade >=80 && grade <= 89) {
+  else if (number>=80 && number <= 89) {
     return 'you got a B';}
-  else if (grade >=70 && grade <=79) {
+  else if (number >=70 && number <=79) {
     return 'you got a C';}
-  else if (grade >=60 && grade <=69) {
+  else if (number >=60 && number <=69) {
      return 'you got a D';}
   else{'You got an F'}
 

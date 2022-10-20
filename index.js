@@ -75,9 +75,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(num1, num2){
-  return num1 * num2;
-}
+function Multiply(a, b){
+  return a * b;
+  
+} 
+console.log("task 1d", this.multiply(9*9));
 
 
 

@@ -79,7 +79,7 @@ function multiply(a, b){
   return a * b;
   
 } 
-console.log("task 1d", this.multiply(9*9));
+console.log("task 1d", multiply(9,9));
 
 
 

@@ -37,8 +37,14 @@ Do the following:
 
    HINT: no function required
 */
+let kid = "billy";
+let behaviour= "screaming";
 
+if (behaviour === "screaming") { kid = "nick"
+}
+else { kid = "billy"}
 
+console.log( "task 1b;" ,kid);
 
 
 

@@ -75,7 +75,7 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function Multiply(a, b){
+function multiply(a, b){
   return a * b;
   
 } 

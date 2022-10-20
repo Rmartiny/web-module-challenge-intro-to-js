@@ -58,6 +58,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+const party = "1999";
+ 
+console. log ("task 1c;", Number(party));
+
 
 
 

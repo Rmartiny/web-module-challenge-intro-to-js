@@ -172,7 +172,7 @@ else if (age >=1 && weight >15) {
   console.log ("task 3", hungryDog(15, 1));
 
 
-}
+
   
 
 

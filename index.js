@@ -216,7 +216,7 @@ function game(user, computer){
   
 
 }
-console.log('task 4', game(rock,computer) );
+console.log('task 4', game("rock",computer) );
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/

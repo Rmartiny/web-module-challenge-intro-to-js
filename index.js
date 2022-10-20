@@ -201,9 +201,9 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 
 let computer = Math.random();
 if (computer <= 0.34 ) {
-  computer = "rock";
-} else if (computer <= 0.67) { computer = "paper";
-} else if ( computer > 0.67) { computer = "scissors";}
+  computer === "rock";
+} else if (computer <= 0.67) { computer === "paper";
+} else if ( computer > 0.67) { computer === "scissors";}
 
 function game(user, computer){
   if ( user === computer) { return 'its a tie';}

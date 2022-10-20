@@ -159,7 +159,7 @@ else if ( age >= 1 && weight >= 11 && weight <=15) {
 }
 else if (age >=1 && weight >15) {
   return weight * 0.02;}
-  else if (age < 1 && age >= 0.583) {weight * 0.04;
+  else if (age < 1 && age >= 0.583) { return weight * 0.04;
   }
   else if (age <0.585 && age >= 0.333)
   { return weight * 0.05;}
@@ -169,7 +169,7 @@ else if (age >=1 && weight >15) {
       return "please try agian!"
     ;}
   }
-  console.log ("taks 3", hungryDog(15, 1));
+  console.log ("task 3", hungryDog(15, 1));
 
 
 }

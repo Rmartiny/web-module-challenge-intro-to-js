@@ -206,12 +206,12 @@ if (computer <= 0.34 ) {
 } else if ( computer > 0.67) { computer = "scissors";}
 
 function game(user, computer){
-  if ( user === computer) { return 'its a tie!';}
-  else if (user ==="rock" && computer === "scissors") {return ' you win!';}
+  if ( user === computer) { return 'its a tie';}
+  else if (user ==="rock" && computer === "scissors") {return 'you win!';}
   else if (user=== "paper" && computer=== "rock") {return 'you win!';}
-  else if (user === "scissors" && computer === "paper") { return ' you win!';}
+  else if (user === "scissors" && computer === "paper") { return 'you win!';}
   else if (user === "scissors" && computer=== "rock") {return 'you lose!';}
-  else if (user === "rock" && Computer === "paper") {return 'you lose!';}
+  else if (user === "rock" && computer === "paper") {return 'you lose!';}
   else if (user === "paper" && computer=== "scissors") { return 'you lose!';}
   
 

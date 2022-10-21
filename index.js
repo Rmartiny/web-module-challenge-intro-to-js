@@ -331,10 +331,10 @@ function vowelCounter(str) {
 
 return count
 }
- const string= prompt('enter a string: ');
+ const string= prompt('the quick brown fox.');
  const result= vowelCounter(string);
 
- console.log (vowelCounter("the quick brown fox."));
+ console.log (vowelCounter(result));
 
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/

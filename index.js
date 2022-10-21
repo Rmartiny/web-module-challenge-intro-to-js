@@ -319,7 +319,7 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(str) {
+function vowelCounter( //) {
   
 
 

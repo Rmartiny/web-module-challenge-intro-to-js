@@ -317,12 +317,24 @@ Using the vowelCounter function below do the following:
 HINT - you may need to study tomorrow's content on arrays 
 HINT - try looking up the .includes() method
 */
+ const vowels = ["a","e","i","o","u"]
 
 
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+function vowelCounter(str) {
+  let count = 0; 
+
+  for (let letters of str.toLowerCase()) {
+    if (vowels.includes (letters)) {
+      count++;
+    }
+  }
+
+return count
 }
+ const string= prompt('enter a string: ');
+ const result= vowelCounter(string);
 
+ console.log (vowelCounter("the quick brown fox."));
 
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
